@@ -3,6 +3,8 @@ import { Component } from '@angular/core';
 
 import { ButtonModule } from 'primeng/button';
 
+import { allContentES, allContentEN } from 'src/shared/data';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -14,5 +16,6 @@ import { ButtonModule } from 'primeng/button';
   ]
 })
 export class AppComponent {
-  title = 'soyDiego-v3';
+  public allContentES = allContentES;
+  title = allContentES.header.name;
 }
