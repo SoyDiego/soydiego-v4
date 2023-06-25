@@ -1,6 +1,6 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { HeaderComponent } from './components/header/header.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
   styleUrls: ['./app.component.scss'],
   standalone: true,
   imports: [
-    HeaderComponent
+    HeaderComponent,
+    ExperienceComponent
   ]
 })
 export class AppComponent { }

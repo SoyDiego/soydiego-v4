@@ -37,6 +37,8 @@ const allContentES = {
 				country: "España",
 				company: "Turijobs",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Desarrollo Web, actualización de contenidos.",
 					two: "Optimización, SEO.",
@@ -49,6 +51,8 @@ const allContentES = {
 				country: "España",
 				company: "Labelgroup Networks",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Desarrollo de ERP para el sector farmaceutico.",
 					two: "Desarrollo Web.",
@@ -61,6 +65,8 @@ const allContentES = {
 				country: "España",
 				company: "CDM Barcelona",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Maquetación de newsletters responsive.",
 					two: "Maquetación de material comercial para el sector salud y principales proveedores CLM (Closed Loop Marketing).",
@@ -74,6 +80,8 @@ const allContentES = {
 				country: "España",
 				company: "USACD",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Maquetación de newsletters responsive.",
 					two: "Desarrollo Web, actualización de contenidos.",
@@ -85,6 +93,8 @@ const allContentES = {
 				country: "España",
 				company: "Everis",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Se implementaban servicios y se creaba la interfaz gráfica para el sector bancario.",
 					two: "Desarrollo Web, actualización de contenidos.",
@@ -99,6 +109,8 @@ const allContentES = {
 			country: "Argentina",
 			institute: "Instituto Superior Argentino de Computación",
 			title: "Analista de Sistemas",
+			icon: "pi pi-graduation-cap",
+			color: "#3B82F6",
 			description: {
 				one: "Legalizado y Certificado en el Ministerio de Relaciones Exteriores para poder trabajar en el Exterior.",
 			},
@@ -107,6 +119,8 @@ const allContentES = {
 			date: "2002-2006",
 			country: "Argentina",
 			institute: "Nuestra Sra. del Buen y Perpetuo Socorro",
+			icon: "pi pi-graduation-cap",
+			color: "#3B82F6",
 			title: "Bachillerato",
 			description: {
 				one: "Perito Mercantil",
@@ -328,6 +342,8 @@ const allContentEN = {
 				country: "Spain",
 				company: "Turijobs",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Web development and content updates.",
 					two: "Optimization, SEO.",
@@ -340,6 +356,8 @@ const allContentEN = {
 				country: "Spain",
 				company: "Labelgroup Networks",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "ERP Development for the pharmaceutical sector.",
 					two: "Web Development.",
@@ -352,6 +370,8 @@ const allContentEN = {
 				country: "Spain",
 				company: "CDM Barcelona",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Design and layout responsive newsletters.",
 					two: "Layout of commercial material for the health sector for the main CLM (Closed Loop Marketing) providers.",
@@ -365,6 +385,8 @@ const allContentEN = {
 				country: "Spain",
 				company: "USACD",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Design and layout responsive newsletters.",
 					two: "Web development and content updates.",
@@ -376,6 +398,8 @@ const allContentEN = {
 				country: "Spain",
 				company: "Everis",
 				position: "Front-end Developer",
+				icon: "pi pi-briefcase",
+				color: "#3B82F6",
 				tasks: {
 					one: "Services were implemented and the graphical interface for the banking sector was created.",
 					two: "Web development and content updates.",
@@ -389,6 +413,8 @@ const allContentEN = {
 			date: "2009-2012",
 			country: "Argentina",
 			institute: "Instituto Superior Argentino de Computación",
+			icon: "pi pi graduation-cap",
+			color: "#3B82F6",
 			title: "System Analyst",
 			description: {
 				one: "Legalized and Certified in the Ministry of Foreign Affairs to be able to work abroad.",
@@ -398,6 +424,8 @@ const allContentEN = {
 			date: "2002-2006",
 			country: "Argentina",
 			institute: "Nuestra Sra. del Buen y Perpetuo Socorro",
+			icon: "pi pi graduation-cap",
+			color: "#3B82F6",
 			title: "High School",
 			description: {
 				one: "Chartered accountant",

@@ -1,1 +1,22 @@
-<p>experience works!</p>
+<section class="grid nogutter experience">
+    <div class="col-12">
+        <p-timeline [value]="experience" align="alternate" styleClass="customized-timeline">
+            <ng-template pTemplate="marker" let-event>
+                <span class="experience__circle" [style.backgroundColor]="event.color">
+                    <i [ngClass]="event.icon"></i>
+                </span>
+            </ng-template>
+            <ng-template pTemplate="content" let-event>
+                <p-card header="{{event.position}}" subheader="{{event.company}} - {{event.date}}">
+                    <p>{{event.position}}</p>
+                    <ul class="experience__tasks">
+                        <li *ngFor="let item of event.tasks | keyvalue">
+                            - {{item.value}}
+                        </li>
+                    </ul>
+                    <p>Technologies: {{event.technologies}}</p>
+                </p-card>
+            </ng-template>
+        </p-timeline>
+    </div>
+</section>
