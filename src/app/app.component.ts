@@ -17,5 +17,5 @@ import { allContentES, allContentEN } from 'src/shared/data';
 })
 export class AppComponent {
   public allContentES = allContentES;
-  title = allContentES.header.name;
+  me = allContentES.header.photo;
 }

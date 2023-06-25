@@ -6,19 +6,23 @@ const allContentES = {
 		location: "Barcelona, España",
 		mobile: "(+34) 644 464 398",
 		urlCV: "../assets/files/CV - Diego Franchina [ES].pdf",
+		photo: "../assets/img/me.png",
 		bgHeader: "../assets/img/bg-header.jpg",
 		social: [
 			{
-				name: "Instagram",
-				url: "https://www.instagram.com/SoyDieg0",
-			},
-			{
 				name: "LinkedIn",
+				icon: "../assets/img/linkedin.svg",
 				url: "https://www.linkedin.com/in/SoyDiegoF",
 			},
 			{
 				name: "GitHub",
+				icon: "../assets/img/github.svg",
 				url: "https://www.github.com/SoyDiego",
+			},
+			{
+				name: "Instagram",
+				icon: "../assets/img/instagram.svg",
+				url: "https://www.instagram.com/SoyDieg0",
 			},
 		],
 		textDownloadCV: "Descargar CV",
@@ -293,19 +297,23 @@ const allContentEN = {
 		location: "Barcelona, Spain",
 		mobile: "(+34) 644 464 398",
 		urlCV: "../assets/files/CV - Diego Franchina [EN].pdf",
+		photo: "../assets/img/me.png",
 		bgHeader: "../assets/img/bg-header.jpg",
 		social: [
 			{
-				name: "Instagram",
-				url: "https://www.instagram.com/SoyDieg0",
-			},
-			{
 				name: "LinkedIn",
+				icon: "../assets/img/linkedin.svg",
 				url: "https://www.linkedin.com/in/SoyDiegoF",
 			},
 			{
 				name: "GitHub",
+				icon: "../assets/img/github.svg",
 				url: "https://www.github.com/SoyDiego",
+			},
+			{
+				name: "Instagram",
+				icon: "../assets/img/instagram.svg",
+				url: "https://www.instagram.com/SoyDieg0",
 			},
 		],
 		textDownloadCV: "Download CV",
