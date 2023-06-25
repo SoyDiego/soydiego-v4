@@ -2,7 +2,7 @@ const allContentES = {
 	header: {
 		name: "Diego J.",
 		surname: "Franchina",
-		profession: "Web Developer",
+		profession: "Front-end",
 		location: "Barcelona, España",
 		mobile: "(+34) 644 464 398",
 		urlCV: "../assets/files/CV - Diego Franchina [ES].pdf",
@@ -293,7 +293,7 @@ const allContentEN = {
 	header: {
 		name: "Diego J.",
 		surname: "Franchina",
-		profession: "Web Developer",
+		profession: "Front-end",
 		location: "Barcelona, Spain",
 		mobile: "(+34) 644 464 398",
 		urlCV: "../assets/files/CV - Diego Franchina [EN].pdf",

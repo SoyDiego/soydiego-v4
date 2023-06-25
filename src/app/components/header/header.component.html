@@ -1,1 +1,37 @@
-<p>header works!</p>
+<section class="grid nogutter header">
+    <div class="col-6 header-photo">
+        <img class="header-photo__img" [src]="content.header.photo" alt="Photo - Diego Franchina" />
+    </div>
+
+    <div class="col-6 header-info">
+
+        <div class="container-content">
+            <div class="container-titles">
+                <h1 class="container-titles__title">{{content.header.name}} {{content.header.surname}}</h1>
+                <p class="container-titles__subtitle"><span>{{content.header.profession}}</span> Developer</p>
+            </div>
+            <div class="container-phone-and-location">
+                <div class="icon-container">
+                    <img src="../assets/img/mobile.svg" alt="Phone icon" />
+                    <span>{{content.header.mobile}}</span>
+                </div>
+                <div class="icon-container">
+                    <img src="../assets/img/location.svg" alt="Location icon" />
+                    <span>{{content.header.location}}</span>
+                </div>
+            </div>
+            <div class="container-buttons">
+                <p-button [label]="content.header.textDownloadCV" class=" header-info-first-part__download-cv" icon="pi pi-download" iconPos="right"></p-button>
+                <p-button styleClass="p-button-outlined" [label]="content.header.language" class="header-info-first-part__download-cv" icon="pi pi-download" iconPos="right"></p-button>
+            </div>
+        </div>
+
+        <div class="container-social">
+            <div *ngFor="let item of content.header.social" class="icon-container">
+                <img [src]="item.icon" alt="LinkedIn icon" />
+                <span>{{item.name}}</span>
+            </div>
+        </div>
+    </div>
+
+</section>

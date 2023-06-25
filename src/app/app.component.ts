@@ -1,9 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-
-import { ButtonModule } from 'primeng/button';
-
-import { allContentES, allContentEN } from 'src/shared/data';
+import { HeaderComponent } from './components/header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -11,11 +8,7 @@ import { allContentES, allContentEN } from 'src/shared/data';
   styleUrls: ['./app.component.scss'],
   standalone: true,
   imports: [
-    CommonModule,
-    ButtonModule
+    HeaderComponent
   ]
 })
-export class AppComponent {
-  public allContentES = allContentES;
-  me = allContentES.header.photo;
-}
+export class AppComponent { }
