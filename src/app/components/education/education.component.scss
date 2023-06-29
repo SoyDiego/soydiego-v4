@@ -1,0 +1,30 @@
+:host {
+  .education {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-block: 2rem;
+
+    & > i {
+      font-size: 24rem;
+      position: absolute;
+      left: 3rem;
+      color: var(--surface-200);
+      transform: rotate(340deg);
+    }
+
+    &__circle {
+      border-radius: 100%;
+      padding: 0.8rem;
+      color: white;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+
+    &__tasks {
+      list-style-type: none;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 <section class="grid nogutter experience">
-    <div class="col-12">
+    <i class="pi pi-briefcase"></i>
+    <div class="col-8">
         <p-timeline [value]="experience" align="alternate" styleClass="customized-timeline">
             <ng-template pTemplate="marker" let-event>
                 <span class="experience__circle" [style.backgroundColor]="event.color">
@@ -11,10 +12,10 @@
                     <p>{{event.position}}</p>
                     <ul class="experience__tasks">
                         <li *ngFor="let item of event.tasks | keyvalue">
-                            - {{item.value}}
+                            <i class="pi pi-angle-right" style="font-size: 0.7rem"></i> {{item.value}}
                         </li>
                     </ul>
-                    <p>Technologies: {{event.technologies}}</p>
+                    <p><strong>Technologies:</strong> {{event.technologies}}</p>
                 </p-card>
             </ng-template>
         </p-timeline>

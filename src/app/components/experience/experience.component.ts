@@ -14,9 +14,5 @@ import { allContentES, allContentEN } from 'src/shared/data';
 export class ExperienceComponent {
 
   experience = allContentEN.experience.content;
-
-  constructor() {
-
-  }
-
+  education = allContentEN.education;
 }

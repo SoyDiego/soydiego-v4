@@ -1,1 +1,22 @@
-<p>education works!</p>
+<section class="grid nogutter education">
+    <i class="pi pi-book"></i>
+    <div class="col-8">
+        <p-timeline [value]="education" align="alternate" styleClass="customized-timeline">
+            <ng-template pTemplate="marker" let-event>
+                <span class="education__circle" [style.backgroundColor]="event.color">
+                    <i [ngClass]="event.icon"></i>
+                </span>
+            </ng-template>
+            <ng-template pTemplate="content" let-event>
+                <p-card header="{{event.title}}" subheader="{{event.institute}} - {{event.date}}">
+                    <p>{{event.country}}</p>
+                    <ul class="education__tasks">
+                        <li *ngFor="let item of event.description | keyvalue">
+                            <i class="pi pi-angle-right" style="font-size: 0.7rem"></i> {{item.value}}
+                        </li>
+                    </ul>
+                </p-card>
+            </ng-template>
+        </p-timeline>
+    </div>
+</section>

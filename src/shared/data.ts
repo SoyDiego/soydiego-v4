@@ -413,7 +413,7 @@ const allContentEN = {
 			date: "2009-2012",
 			country: "Argentina",
 			institute: "Instituto Superior Argentino de Computación",
-			icon: "pi pi graduation-cap",
+			icon: "pi pi-book",
 			color: "#3B82F6",
 			title: "System Analyst",
 			description: {
@@ -424,7 +424,7 @@ const allContentEN = {
 			date: "2002-2006",
 			country: "Argentina",
 			institute: "Nuestra Sra. del Buen y Perpetuo Socorro",
-			icon: "pi pi graduation-cap",
+			icon: "pi pi-book",
 			color: "#3B82F6",
 			title: "High School",
 			description: {

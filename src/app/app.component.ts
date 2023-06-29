@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from './components/header/header.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { EducationComponent } from './components/education/education.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
   standalone: true,
   imports: [
     HeaderComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    EducationComponent
   ]
 })
 export class AppComponent { }
