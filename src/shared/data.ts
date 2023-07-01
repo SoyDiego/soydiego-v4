@@ -141,65 +141,48 @@ const allContentES = {
 		],
 	},
 	skills: {
-		titleSkills: "Tecnologías",
+		titleSkills: "Skills",
 		content: [
 			{
 				name: "HTML5",
-				icon: "devicon-html5-plain-wordmark colored",
+				icon: "../assets/img/skills/html5.svg",
 			},
 			{
 				name: "CSS3",
-				icon: "devicon-css3-plain-wordmark colored",
+				icon: "../assets/img/skills/css3.svg",
 			},
 			{
 				name: "SASS",
-				icon: "devicon-sass-original colored",
+				icon: "../assets/img/skills/sass.svg",
 			},
 			{
 				name: "Javascript",
-				icon: "devicon-javascript-plain colored",
+				icon: "../assets/img/skills/javascript.svg",
+			},
+			{
+				name: "Typescript",
+				icon: "../assets/img/skills/typescript.svg",
+			},
+			{
+				name: "Angular",
+				icon: "../assets/img/skills/angular.svg",
 			},
 			{
 				name: "ReactJS",
-				icon: "devicon-react-original-wordmark colored",
-			},
-			{
-				name: "Redux",
-				icon: "devicon-redux-original colored",
-			},
-			{
-				name: "Bootstrap",
-				icon: "devicon-bootstrap-plain-wordmark colored",
-			},
-			{
-				name: "TailwindCSS",
-				icon: "devicon-tailwindcss-plain colored",
-			},
-
-			{
-				name: "PHP",
-				icon: "devicon-php-plain colored",
-			},
-			{
-				name: "MySQL",
-				icon: "devicon-mysql-plain-wordmark colored",
+				icon: "../assets/img/skills/react.svg",
 			},
 			{
 				name: "Git",
-				icon: "devicon-git-plain-wordmark colored",
+				icon: "../assets/img/skills/git.svg",
 			},
 			{
-				name: "Wordpress",
-				icon: "devicon-wordpress-plain-wordmark colored",
+				name: "Figma",
+				icon: "../assets/img/skills/figma.svg",
 			},
 			{
-				name: "Photoshop",
-				icon: "devicon-photoshop-plain colored",
-			},
-			{
-				name: "Illustrator",
-				icon: "devicon-illustrator-plain colored",
-			},
+				name: "Linux",
+				icon: "../assets/img/skills/linux.svg",
+			}
 		],
 	},
 	references: {
@@ -437,61 +420,44 @@ const allContentEN = {
 		content: [
 			{
 				name: "HTML5",
-				icon: "devicon-html5-plain-wordmark colored",
+				icon: "../assets/img/skills/html5.svg",
 			},
 			{
 				name: "CSS3",
-				icon: "devicon-css3-plain-wordmark colored",
+				icon: "../assets/img/skills/css3.svg",
 			},
 			{
 				name: "SASS",
-				icon: "devicon-sass-original colored",
+				icon: "../assets/img/skills/sass.svg",
 			},
 			{
 				name: "Javascript",
-				icon: "devicon-javascript-plain colored",
+				icon: "../assets/img/skills/javascript.svg",
+			},
+			{
+				name: "Typescript",
+				icon: "../assets/img/skills/typescript.svg",
+			},
+			{
+				name: "Angular",
+				icon: "../assets/img/skills/angular.svg",
 			},
 			{
 				name: "ReactJS",
-				icon: "devicon-react-original-wordmark colored",
-			},
-			{
-				name: "Redux",
-				icon: "devicon-redux-original colored",
-			},
-			{
-				name: "Bootstrap",
-				icon: "devicon-bootstrap-plain-wordmark colored",
-			},
-			{
-				name: "TailwindCSS",
-				icon: "devicon-tailwindcss-plain colored",
-			},
-
-			{
-				name: "PHP",
-				icon: "devicon-php-plain colored",
-			},
-			{
-				name: "MySQL",
-				icon: "devicon-mysql-plain-wordmark colored",
+				icon: "../assets/img/skills/react.svg",
 			},
 			{
 				name: "Git",
-				icon: "devicon-git-plain-wordmark colored",
+				icon: "../assets/img/skills/git.svg",
 			},
 			{
-				name: "Wordpress",
-				icon: "devicon-wordpress-plain-wordmark colored",
+				name: "Figma",
+				icon: "../assets/img/skills/figma.svg",
 			},
 			{
-				name: "Photoshop",
-				icon: "devicon-photoshop-plain colored",
-			},
-			{
-				name: "Illustrator",
-				icon: "devicon-illustrator-plain colored",
-			},
+				name: "Linux",
+				icon: "../assets/img/skills/linux.svg",
+			}
 		],
 	},
 	references: {

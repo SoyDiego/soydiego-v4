@@ -1,1 +1,11 @@
-<p>skills works!</p>
+<section class="grid nogutter languages">
+    <div class="col-12">
+        <div class="grid languages-container-icons">
+            <div class="col-1" *ngFor="let item of skills">
+                <div class="languages__item">
+                    <img [src]="item.icon" [alt]="item.name" [pTooltip]="item.name" [tooltipPosition]="'top'" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
