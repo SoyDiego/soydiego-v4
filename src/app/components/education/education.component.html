@@ -1,20 +1,17 @@
 <section class="grid nogutter education">
     <i class="pi pi-book"></i>
     <div class="col-8">
-        <p-timeline [value]="education" align="alternate" styleClass="customized-timeline">
+        <p-timeline [value]="education" align="alternate">
             <ng-template pTemplate="marker" let-event>
-                <span class="education__circle" [style.backgroundColor]="event.color">
-                    <i [ngClass]="event.icon"></i>
-                </span>
+                <p-tag styleClass="education__tag">{{event.date}}</p-tag>
             </ng-template>
             <ng-template pTemplate="content" let-event>
-                <p-card header="{{event.title}}" subheader="{{event.institute}} - {{event.date}}">
-                    <p>{{event.country}}</p>
-                    <ul class="education__tasks">
-                        <li *ngFor="let item of event.description | keyvalue">
+                <p-card styleClass="education__card" header="{{event.title}}" subheader="{{event.institute}}">
+                    <p class="education__tasks">
+                        <span *ngFor="let item of event.description | keyvalue">
                             <i class="pi pi-angle-right" style="font-size: 0.7rem"></i> {{item.value}}
-                        </li>
-                    </ul>
+                        </span>
+                    </p>
                 </p-card>
             </ng-template>
         </p-timeline>

@@ -1,21 +1,22 @@
 <section class="grid nogutter experience">
     <i class="pi pi-briefcase"></i>
     <div class="col-8">
-        <p-timeline [value]="experience" align="alternate" styleClass="customized-timeline">
+        <p-timeline [value]="experience" align="alternate">
             <ng-template pTemplate="marker" let-event>
-                <span class="experience__circle" [style.backgroundColor]="event.color">
-                    <i [ngClass]="event.icon"></i>
-                </span>
+                <p-tag value="{{event.date}}"></p-tag>
             </ng-template>
             <ng-template pTemplate="content" let-event>
-                <p-card header="{{event.position}}" subheader="{{event.company}} - {{event.date}}">
-                    <p>{{event.position}}</p>
-                    <ul class="experience__tasks">
-                        <li *ngFor="let item of event.tasks | keyvalue">
-                            <i class="pi pi-angle-right" style="font-size: 0.7rem"></i> {{item.value}}
-                        </li>
-                    </ul>
-                    <p><strong>Technologies:</strong> {{event.technologies}}</p>
+
+                <p-card styleClass="experience__card" header="{{event.position}}" subheader="{{event.company}}">
+                    <p class="experience__tasks">
+                        <strong>Tasks:</strong>
+                        <span *ngFor="let item of event.tasks | keyvalue">
+                            <i class="pi pi-angle-right" style="font-size: 0.7rem"></i>
+                            {{item.value}}
+                        </span>
+                    </p>
+                    <p><strong>Technologies:</strong></p>
+                    <span>{{event.technologies}}</span>
                 </p-card>
             </ng-template>
         </p-timeline>

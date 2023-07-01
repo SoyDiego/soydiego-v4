@@ -109,8 +109,8 @@ const allContentES = {
 			country: "Argentina",
 			institute: "Instituto Superior Argentino de Computación",
 			title: "Analista de Sistemas",
-			icon: "pi pi-graduation-cap",
-			color: "#3B82F6",
+			icon: "pi pi-book",
+			color: "#224989",
 			description: {
 				one: "Legalizado y Certificado en el Ministerio de Relaciones Exteriores para poder trabajar en el Exterior.",
 			},
@@ -119,8 +119,8 @@ const allContentES = {
 			date: "2002-2006",
 			country: "Argentina",
 			institute: "Nuestra Sra. del Buen y Perpetuo Socorro",
-			icon: "pi pi-graduation-cap",
-			color: "#3B82F6",
+			icon: "pi pi-book",
+			color: "#224989",
 			title: "Bachillerato",
 			description: {
 				one: "Perito Mercantil",
@@ -338,7 +338,7 @@ const allContentEN = {
 		titleTechnologies: "Technologies",
 		content: [
 			{
-				date: "April '21 - November '21",
+				date: "2021",
 				country: "Spain",
 				company: "Turijobs",
 				position: "Front-end Developer",
@@ -352,7 +352,7 @@ const allContentEN = {
 					"HTML5, CSS3, Sass, Javascript, JQuery, Bootstrap, SQL.",
 			},
 			{
-				date: "September '20 - April '21",
+				date: "2020",
 				country: "Spain",
 				company: "Labelgroup Networks",
 				position: "Front-end Developer",
@@ -366,7 +366,7 @@ const allContentEN = {
 					"HTML5, CSS3, Sass, React JS, Redux, GraphQL, Style Components, Storybook, TailwindCSS, Bootstrap.",
 			},
 			{
-				date: "July '19 - Dicember '19",
+				date: "2019",
 				country: "Spain",
 				company: "CDM Barcelona",
 				position: "Front-end Developer",
@@ -381,20 +381,7 @@ const allContentEN = {
 					"HTML5, CSS3, Javascript, MJML Framework, Wordpress, Bootstrap.",
 			},
 			{
-				date: "May '19 - July '19",
-				country: "Spain",
-				company: "USACD",
-				position: "Front-end Developer",
-				icon: "pi pi-briefcase",
-				color: "#3B82F6",
-				tasks: {
-					one: "Design and layout responsive newsletters.",
-					two: "Web development and content updates.",
-				},
-				technologies: "HTML5, CSS3, Javascript, MJML Framework.",
-			},
-			{
-				date: "March '16 - Dicember '16",
+				date: "2016",
 				country: "Spain",
 				company: "Everis",
 				position: "Front-end Developer",
@@ -414,7 +401,7 @@ const allContentEN = {
 			country: "Argentina",
 			institute: "Instituto Superior Argentino de Computación",
 			icon: "pi pi-book",
-			color: "#3B82F6",
+			color: "#224989",
 			title: "System Analyst",
 			description: {
 				one: "Legalized and Certified in the Ministry of Foreign Affairs to be able to work abroad.",
@@ -425,7 +412,7 @@ const allContentEN = {
 			country: "Argentina",
 			institute: "Nuestra Sra. del Buen y Perpetuo Socorro",
 			icon: "pi pi-book",
-			color: "#3B82F6",
+			color: "#224989",
 			title: "High School",
 			description: {
 				one: "Chartered accountant",
