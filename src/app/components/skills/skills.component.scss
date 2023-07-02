@@ -1,5 +1,13 @@
-.languages-container-icons {
+.skills {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  align-items: center;
+  background-color: var(--surface-900);
+  height: 100vh;
+  height: 100dvh;
+
+  &-container-icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
