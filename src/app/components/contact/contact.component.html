@@ -1,1 +1,7 @@
-<p>contact works!</p>
+<section class="grid nogutter contact">
+    <div class="col-12 contact__container">
+        <h2>{{contact.titleOne}}</h2>
+        <h3>{{contact.titleTwo}}</h3>
+        <p-button [label]="contact.textButton" icon="pi pi-arrow-up" (onClick)="handleGoToTop()"></p-button>
+    </div>
+</section>

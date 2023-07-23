@@ -1,15 +1,13 @@
 <section class="grid nogutter portfolio">
     <div class="col-12">
-        <p-carousel [value]="portfolio" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [showNavigators]="true" [showNavigators]="true">
+        <p-carousel [value]="portfolio" [numVisible]="3" [numScroll]="1" [autoplayInterval]="3000" [showNavigators]="true" [showNavigators]="true">
             <ng-template let-item pTemplate="item">
                 <div class="container-carousel">
                     <img src="{{item.picture}}" [alt]="item.title" class="w-6 shadow-2" />
                     <h2>{{item.title}}</h2>
-
                     <div class="container-carousel__technologies">
                         <p-tag *ngFor="let tag of item.technologies" value="{{tag}}" class="p-mr-2"></p-tag>
                     </div>
-
                     <p>{{item.description}}</p>
                 </div>
             </ng-template>

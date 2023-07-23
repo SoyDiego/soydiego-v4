@@ -1,0 +1,13 @@
+.contact{
+    height: 100vh;
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
