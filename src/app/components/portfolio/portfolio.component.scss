@@ -1,0 +1,21 @@
+.portfolio{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    height: 100dvh;
+
+    .container-carousel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        &__technologies{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

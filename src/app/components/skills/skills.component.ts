@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TooltipModule } from 'primeng/tooltip';
+import { InplaceModule } from 'primeng/inplace';
 import { allContentES, allContentEN } from 'src/shared/data';
-
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [CommonModule, TooltipModule],
+  imports: [CommonModule, TooltipModule, InplaceModule],
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
