@@ -1,1 +1,19 @@
-<p>references works!</p>
+<section class="grid nogutter references">
+    <div class="col-12">
+        <p-carousel [value]="references" [numVisible]="3" [numScroll]="1" [autoplayInterval]="3000" [showNavigators]="true" [showNavigators]="true">
+            <ng-template let-item pTemplate="item">
+                <div class="container-carousel">
+                    <div class="container-carousel-left">
+                        <i class="container-carousel-left__quotes ti ti-quote"></i>
+                        <img class="container-carousel-left__image" src="{{item.avatar}}" [alt]="item.name" />
+                        <p>{{item.reference}}</p>
+                    </div>
+                    <div class="container-carousel-right">
+                        <i class="container-carousel-right__quotes ti ti-quote"></i>
+                        <span class="container-carousel-right__name">{{item.name}}</span>
+                    </div>
+                </div>
+            </ng-template>
+        </p-carousel>
+    </div>
+</section>
