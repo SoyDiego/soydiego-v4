@@ -1,28 +1,9 @@
 ::ng-deep {
-  .education {
+  .education{
     position: relative;
     display: flex;
     justify-content: center;
     margin-block: 2rem;
-
-    & > i {
-      font-size: 24rem;
-      position: absolute;
-      left: 3rem;
-      color: var(--surface-200);
-      transform: rotate(340deg);
-    }
-
-    &__circle {
-      display: flex;
-      border-radius: 100%;
-      padding: 0.8rem;
-      color: white;
-
-      i {
-        font-size: 1.5rem;
-      }
-    }
 
     &__tag {
       background-color: var(--primary-700);
@@ -32,11 +13,36 @@
       border: 4px solid var(--primary-700);
       border-width: 4px 0 0 0;
     }
+  }
 
-    .p-timeline-vertical.p-timeline-alternate
-      .p-timeline-event:nth-child(2n)
-      .p-timeline-event-content {
-      text-align: left;
+  @media screen and (min-width: 768px) {
+    .education {
+
+  
+      & > i {
+        font-size: 24rem;
+        position: absolute;
+        left: 3rem;
+        color: var(--surface-200);
+        transform: rotate(340deg);
+      }
+  
+      &__circle {
+        display: flex;
+        border-radius: 100%;
+        padding: 0.8rem;
+        color: white;
+  
+        i {
+          font-size: 1.5rem;
+        }
+      }
+  
+      .p-timeline-vertical.p-timeline-alternate
+        .p-timeline-event:nth-child(2n)
+        .p-timeline-event-content {
+        text-align: left;
+      }
     }
   }
 }
