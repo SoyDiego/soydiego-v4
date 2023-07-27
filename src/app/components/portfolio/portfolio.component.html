@@ -3,7 +3,7 @@
         <p-carousel [value]="portfolio" [numVisible]="3" [numScroll]="1" [autoplayInterval]="3000" [showNavigators]="true" [showNavigators]="true">
             <ng-template let-item pTemplate="item">
                 <div class="container-carousel">
-                    <img src="{{item.picture}}" [alt]="item.title" />
+                    <img class="container-carousel__image" src="{{item.picture}}" [alt]="item.title" />
                     <h2>{{item.title}}</h2>
                     <p>{{item.description}}</p>
                 </div>
