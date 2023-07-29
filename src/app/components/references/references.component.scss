@@ -1,54 +1,74 @@
-.references{
-    display: grid;
-    place-content: center;
-    height: 100vh;
-    height: 100dvh;
+::ng-deep{
+    .references{
+        display: grid;
+        place-content: center;
+        height: 100vh;
+        height: 100dvh;
 
-    .container-carousel{
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        gap: 1rem;
-        padding: 1rem;
-        background-color: var(--surface-50);
-        border: 1px solid var(--surface-100);
-        border-radius: .5rem;
-
-        &-left{
-            position: relative;
+        .p-carousel-item{
             display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 1rem;
-
-            &__quotes{
-                position: absolute;
-                top: 1rem;
-                left: 1rem;
-                font-size: 4rem;
-                transform: rotate(180deg);
-                color: var(--surface-800);
-            }
-
-            &__image{
-                width: 20%;
-                border: 1px solid var(--surface-100);
-                border-radius: 50%;
-            }
+            justify-content: center;
+            flex: unset;
         }
-        
-        &-right{
+
+        .container-carousel{
             display: flex;
             flex-direction: column;
-            align-items: flex-end;
-            color: var(--primary-color);
-            font-weight: bold;
+            width: 80%;
+            background-color: var(--surface-50);
+            border: 1px solid var(--surface-100);
+            border-radius: .5rem;
+            padding: .5rem;
+            height: fit-content;
 
-            &__quotes{
-                font-size: 4rem;
-                transform: rotate(360deg);
-                color: var(--surface-800);
+    
+            &-left{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 1rem;
+    
+                &__quotes{
+                    position: absolute;
+                    top: -.5rem;
+                    left: .5rem;
+                    font-size: 4rem;
+                    transform: rotate(180deg);
+                    color: var(--surface-800);
+                }
+    
+                &__image{
+                    width: 20%;
+                    border: 1px solid var(--surface-100);
+                    border-radius: 50%;
+                }
+            }
+            
+            &-right{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                color: var(--primary-color);
+                font-weight: bold;
+    
+                &__quotes{
+                    font-size: 4rem;
+                    transform: rotate(360deg);
+                    color: var(--surface-800);
+                }
             }
         }
     }
+
+
+    @media screen and (min-width: 768px) {
+        .references{
+            
+            .container-carousel{
+                width: 90%;
+                padding: 1rem;
+        }
+    }
+}
 }
