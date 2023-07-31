@@ -27,7 +27,7 @@ export class ReferencesComponent implements OnInit {
         numScroll: 1
       },
       {
-        breakpoint: '375px',
+        breakpoint: '575px',
         numVisible: 1,
         numScroll: 1
       }
