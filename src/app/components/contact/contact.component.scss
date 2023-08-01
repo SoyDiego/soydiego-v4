@@ -1,13 +1,27 @@
 .contact{
+    position: relative;
     height: 100vh;
     height: 100dvh;
     display: grid;
     place-content: center;
-
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1005%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c184 C 96%2c153.6 288%2c44 480%2c32 C 672%2c20 768%2c127 960%2c124 C 1152%2c121 1344%2c38.4 1440%2c17L1440 560L0 560z' fill='rgba(17%2c 55%2c 94%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c281 C 57.6%2c268.2 172.8%2c212.2 288%2c217 C 403.2%2c221.8 460.8%2c309.8 576%2c305 C 691.2%2c300.2 748.8%2c189.8 864%2c193 C 979.2%2c196.2 1036.8%2c305.6 1152%2c321 C 1267.2%2c336.4 1382.4%2c280.2 1440%2c270L1440 560L0 560z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c536 C 96%2c505.6 288%2c384.8 480%2c384 C 672%2c383.2 768%2c521.2 960%2c532 C 1152%2c542.8 1344%2c456.8 1440%2c438L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1005'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      
     &__container{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+        color: white;
+
+        h2{
+            font-size: 2rem;
+        }
+
+        h3{
+            font-size: 1.5rem;
+        }
     }
 }
