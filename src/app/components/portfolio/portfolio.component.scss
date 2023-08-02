@@ -1,28 +1,40 @@
-.portfolio{
-    display: grid;
-    place-content: center;
-    height: 100vh;
-    height: 100dvh;
+::ng-deep{
+    .portfolio{
+        display: grid;
+        place-content: center;
+        height: 100vh;
+        height: 100dvh;
 
-    .container-carousel{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-
-        &__image{
-            width: 90%;
-            height: 50%;
-            border: 1px solid var(--surface-200);
-            padding: 1rem;
+        .p-carousel-item{
+            display: flex;
+            justify-content: center;
+            flex: unset;
         }
 
-        &__technologies{
+        .container-carousel{
             display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            width: 90vw;
+            background-color: var(--surface-50);
+            border: 1px solid var(--surface-100);
+            border-radius: .5rem;
+            padding: .5rem;
+            height: fit-content;
+
+            &__image{
+                width: 100%;
+            }
+        }
+    }
+
+
+    @media screen and (min-width: 991px) {
+            .portfolio{
+                .container-carousel{
+                    width: 90%;
+                    padding: 1rem;
+            }
         }
     }
 }

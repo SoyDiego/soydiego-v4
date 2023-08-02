@@ -1,9 +1,9 @@
 <section class="grid nogutter portfolio">
     <div class="col-12">
-        <p-carousel [value]="portfolio" [numVisible]="3" [numScroll]="1" [autoplayInterval]="3000" [showNavigators]="true" [showIndicators]="true">
+        <p-carousel [value]="portfolio" [autoplayInterval]="3000" [numVisible]="3" [numScroll]="1" [showNavigators]="true" [showIndicators]="true">
             <ng-template let-item pTemplate="item">
                 <div class="container-carousel">
-                    <img class="container-carousel__image" src="{{item.picture}}" [alt]="item.title" />
+                    <img class="container-carousel__image" src="{{item.picture}}" [alt]="item.name" />
                     <h2>{{item.title}}</h2>
                     <p>{{item.description}}</p>
                 </div>
