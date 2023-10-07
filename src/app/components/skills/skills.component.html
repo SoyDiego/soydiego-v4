@@ -1,8 +1,8 @@
-<section class="grid nogutter skills">
+<section #skillsSection class="grid nogutter skills">
     <div class="col-12">
         <div class="grid skills-container-icons">
-            <div class="col-4 md:col-3 lg:col-1" *ngFor="let item of skills">
-                <div class="skills__item">
+            <div class="col-4 md:col-3 lg:col-1" *ngFor="let item of skills; let i = index">
+                <div class="skills__item" [ngStyle]="{'animation-delay': i * 200 + 'ms'}">
                     <img [src]="item.icon" [alt]="item.name" [pTooltip]="item.name" tooltipPosition="top" />
                 </div>
             </div>

@@ -7,6 +7,8 @@ import { LanguagesComponent } from './components/languages/languages.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ReferencesComponent } from './components/references/references.component';
+import { BrowserModule } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-root',

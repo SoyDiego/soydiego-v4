@@ -5,6 +5,23 @@
   height: 100vh;
   height: 100dvh;
 
+  .animate-icons &__item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInAndSlideUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeInAndSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
   &-container-icons {
     display: flex;
     justify-content: center;
